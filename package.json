@@ -1,0 +1,28 @@
+{
+  "name": "bedu-travels-graphql",
+  "version": "0.1.0",
+  "description": "A GraphQL service for BeduTravels",
+  "author": "Bedu <engineering@bedu.org>",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^4.0.4",
+    "mongoose": "^5.5.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "graphql": "^14.3.1",
+    "nodemon": "^1.19.1"
+  }
+}
